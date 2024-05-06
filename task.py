@@ -1,16 +1,20 @@
 
 # *Task - 1
-list_1=[-4,-16,0,1,4,5,9,16,25,36,49,64,81,100]
+list_1=[-4,-16,0,1,4,5,9,121,16,25,36,49,64,81,100]
 def myfunc_1(list):
     # 1_Yol
-    return [ i for i in list if( i > 0 and ( i ** 0.5).is_integer()) ]
+    answer= [ i for i in list if( (i > 0) and ( i ** 0.5).is_integer()) ]
+    answer.sort()
+    return answer
 
     # 2_Yol
-    #   result=[]
-    #   for i in list:
-    #      if i>0 and pow(i,1/2).is_integer():
-    #          result.append(i)
-    #   return result
+      # result=[]
+      # for i in list:
+      #    if i>0 and pow(i,1/2).is_integer():
+            
+      #        result.append(i)
+      # result.sort()
+      # return result
 
 
 # print(myfunc_1(list_1))
@@ -35,7 +39,7 @@ def my_func_3(list):
   # for i in input("eded daxil edin:"):
   #    result*=int(i)
 
-  # input:[2,4,6,10]-> 2*4*6*10 =480
+  # input:[2,4,6,10]-> 2*4*6*10 = 480
   for i in list:
       result *= i
 
@@ -76,7 +80,7 @@ def my_func_6(list):
 #  return([ i[:i.find(" ")].lower() for i in list])
 
 
-print(my_func_6(list_6))
+# print(my_func_6(list_6))
 
 
 
@@ -96,4 +100,4 @@ def my_func_7(nums_1,nums_2):
 
   # return result
 
-print(my_func_7(nums1,nums2))
+# print(my_func_7(nums1,nums2))
