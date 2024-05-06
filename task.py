@@ -101,4 +101,4 @@ def my_func_7(nums_1,nums_2):
 
   # return result
 
-print(my_func_7(nums1,nums2))
+# print(my_func_7(nums1,nums2))
