@@ -64,10 +64,10 @@ def my_func_4():
 list_5=["yanvar","fevral","mart","aprel","may","iyun","iyul","avqust","sentyabr","oktyabr"]
 
 def my_func_5(list):
-    return {x:len(x) for x in list}
+  return {x:len(x) for x in list}
 
 
-# print(my_func_5(list_5))
+print(my_func_5(list_5))
 
 
 
