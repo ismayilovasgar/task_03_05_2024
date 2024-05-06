@@ -92,7 +92,7 @@ nums2 = [4, 5, 6, 1, 2]
 def my_func_7(nums_1,nums_2):
 
 #  1_Yol
- return [ (nums_1[i]+nums_2[i])/2 for i in range(len(nums1))]
+ return [ (nums_1[i]+nums_2[i])/2 for i in range(len(nums_1))]
 
 #  2_Yol
   # result=[]
@@ -101,4 +101,4 @@ def my_func_7(nums_1,nums_2):
 
   # return result
 
-# print(my_func_7(nums1,nums2))
+print(my_func_7(nums1,nums2))
