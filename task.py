@@ -67,7 +67,7 @@ def my_func_5(list):
   return {x:len(x) for x in list}
 
 
-print(my_func_5(list_5))
+# print(my_func_5(list_5))
 
 
 
