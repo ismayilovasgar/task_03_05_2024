@@ -4,6 +4,7 @@ list_1=[-4,-16,0,1,4,5,9,121,16,25,36,49,64,81,100]
 def myfunc_1(list):
     # 1_Yol
     answer= [ i for i in list if( (i > 0) and ( i ** 0.5).is_integer()) ]
+    # answer= [ i for i in list if( (i > 0) and pow(i,1/2).is_integer()) ]
     answer.sort()
     return answer
 
